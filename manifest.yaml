@@ -1,0 +1,11 @@
+name: video_trim
+description: Trim start splash screen
+entrypoint: trim.py
+inputs:
+  - param_name: input 
+    type: video
+outputs:
+  - param_name: output_wav
+    type: audio
+  - param_name: output_mp4
+    type: video
